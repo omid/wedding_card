@@ -1,0 +1,8 @@
+Date: 14-04-2010 (25-01-1389)
+License: GPLv3
+Developer: Omid Mottaghi ( http://oxygenws.com/ | omidmr@gmail.com )
+
+Instruction:
+- You can change texts in index.html source code.
+- Some other texts appears on script.js file.
+- Address and time of the wedding is rot13-ed of address in "ad" variable in script.js (Line 45).
