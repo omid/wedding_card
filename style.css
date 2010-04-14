@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "OLWedding";
+    src: url(font/OL.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "OLWedding";
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#loading {
+    position: absolute;
+    width: 515px;
+    height: 390px;
+    background-color: #fff;
+    z-index: 3000;
+    text-align: center;
+    display: table;
+}
+
+#first {
+    position: absolute;
+    width: 515px;
+    height: 390px;
+    background-color: orange;
+    z-index: 2000;
+    text-align: center;
+    display: table;
+}
+
+#second {
+    position: relative;
+    width: 515px;
+    height: 390px;
+    background-color: pink;
+    z-index: 1000;
+    display: table;
+}
+
+p {
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+small {
+    font-size: 0.5em;
+}
+
+.red {
+    color: red;
+}
+
+#third {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 515px;
+    height: 390px;
+    z-index: 500;
+    background-color: cyan;
+    text-align: center;
+}
+
+#fifth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 515px;
+    height: 390px;
+    z-index: 500;
+    background-color: cyan;
+    text-align: center;
+    display: none;
+}
+
+#sixth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 515px;
+    height: 390px;
+    z-index: 500;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: none;
+}
+
+#choose-woman {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 55px;
+    height: 55px;
+    background: url('choose-woman.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#choose-man {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 55px;
+    height: 55px;
+    background: url('choose-man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#choose-woman-text {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+#choose-man-text {
+    position: absolute;
+    top: 120px;
+    left: 360px;
+}
+
+#game {
+    position: absolute;
+    width: 515px;
+    height: 390px;
+    background-color: #006600;
+}
+
+#left {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-right: 1px dashed white;
+    width: 55px;
+    height: 90px;
+    background: url('bride.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#right {
+    position: absolute;
+    top: 150px;
+    left: 459px;
+    border-left: 1px dashed white;
+    width: 55px;
+    height: 90px;
+    background: url('groom.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#ball {
+    background-color: #FFB7B7;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 225px;
+    left: 55px;
+}
+
+#line {
+    position: absolute;
+    left: 255px;
+    top: 0;
+    width: 5px;
+    height: 390px;
+    background-color: #B5B3B3;
+}
+
+#left-point {
+    position: absolute;
+    left: 230px;
+    top: 10px;
+    width: 15px;
+    height: 25px;
+}
+
+#right-point {
+    position: absolute;
+    left: 270px;
+    top: 10px;
+    width: 15px;
+    height: 25px;
+}
